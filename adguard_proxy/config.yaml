@@ -1,5 +1,5 @@
 name: AdGuard Home Proxy
-version: "0.1"
+version: "0.2"
 panel_icon: "mdi:shield-check"
 panel_title: AdGuard Home
 slug: adguard-proxy
@@ -13,10 +13,10 @@ ingress: true
 ingress_port: 3000
 ingress_entry: /
 panel_admin: false
-ports:
-  3000/tcp: 3000
-ports_description:
-  5000/tcp: Web interface (Not required for Hass.io Ingress)
+#ports:
+#  3000/tcp: 3000
+#ports_description:
+#  5000/tcp: Web interface (Not required for Hass.io Ingress)
 host_network: false
 devices: []
 usb: false
