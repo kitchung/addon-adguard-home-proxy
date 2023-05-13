@@ -1,6 +1,6 @@
 {
   "name": "AdGuard Home Proxy",
-  "version": "0.2",
+  "version": "0.3",
   "url": "https://github.com/kitchung/hassio-addons/adguard_proxy",
   "panel_icon": "mdi:shield-check",
   "slug": "adguard-proxy",
